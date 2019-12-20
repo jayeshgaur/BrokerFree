@@ -26,4 +26,13 @@ public interface EstateService {
 	List<User> getInterestedUsers();
 	boolean changeOfferEstate(BigInteger userId, BigInteger estateId);
 	Estate addEstate(Estate estate, BigInteger userId);
+	/*
+	 * Schedule Appointment with Property SPOC Agent
+	 * Book property
+	 * 
+	 * Charge registration - On Listing Property and Buying as well. (Integrate third party payments: V)
+	 * Do we make owner and customer as separate entities or one can do both
+	 * In that case upon listing of first property one has to to charge the registration amount.
+	 * 
+	 * */
 }
